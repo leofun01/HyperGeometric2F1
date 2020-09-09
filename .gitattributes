@@ -1,0 +1,15 @@
+# https://mirrors.edge.kernel.org/pub/software/scm/git/docs/gitattributes.html
+# https://git-scm.com/docs/gitattributes
+
+*	text=auto
+
+# Text
+*.cs		text	eol=crlf	diff=csharp
+*.sln		text	eol=crlf
+*.csproj	text	eol=crlf
+*.resx		text	eol=crlf
+*.svg		text	eol=crlf
+*.xml		text	eol=crlf
+
+# Binary
+*.png		binary	diff=exif
