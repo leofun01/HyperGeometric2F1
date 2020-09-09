@@ -2,8 +2,8 @@
 using System.Drawing;
 using System.Globalization;
 using System.Windows.Forms;
-using HyperGeoMetric2F1.Hypergeometric;
-using HyperGeoMetric2F1.Linker;
+using HyperGeometric2F1.Hypergeometric;
+using HyperGeometric2F1.Linker;
 
 namespace Form2F1
 {
@@ -281,7 +281,7 @@ namespace Form2F1
 		{
 			int k = _k - 1, t = k;
 			bool condition = false;
-			HyperGeoMetric2F1.Base.Func<int> nextValue = i => {
+			HyperGeometric2F1.Base.Func<int> nextValue = i => {
 				int p = condition ? 2 : 0;
 				condition ^= i != (p ^ 2);
 				return i == p ? 1 : p;

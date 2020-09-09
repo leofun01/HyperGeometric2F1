@@ -100,9 +100,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\HyperGeoMetric2F1\HyperGeoMetric2F1.csproj">
+    <ProjectReference Include="..\HyperGeometric2F1\HyperGeometric2F1.csproj">
       <Project>{968941B1-A783-40AE-8CDF-F4FD06B9BA90}</Project>
-      <Name>HyperGeoMetric2F1</Name>
+      <Name>HyperGeometric2F1</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

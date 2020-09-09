@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Drawing;
 using System.Windows.Forms;
-using HyperGeoMetric2F1.Linker;
-using HyperGeoMetric2F1.Hypergeometric;
-using HyperGeoMetric2F1.Math;
+using HyperGeometric2F1.Linker;
+using HyperGeometric2F1.Hypergeometric;
+using HyperGeometric2F1.Math;
 using System.Collections.Generic;
 
 namespace Form2F1

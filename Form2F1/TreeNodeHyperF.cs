@@ -5,8 +5,8 @@ using System.Drawing;
 using System.Data;
 using System.Text;
 using System.Windows.Forms;
-using HyperGeoMetric2F1.Linker;
-using HyperGeoMetric2F1.Hypergeometric;
+using HyperGeometric2F1.Linker;
+using HyperGeometric2F1.Hypergeometric;
 
 namespace Form2F1
 {
