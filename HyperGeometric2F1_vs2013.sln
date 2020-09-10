@@ -1,9 +1,9 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HyperGeometric2F1", "HyperGeometric2F1\HyperGeometric2F1.csproj", "{968941B1-A783-40AE-8CDF-F4FD06B9BA90}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HyperGeometric2F1", "HyperGeometric2F1\HyperGeometric2F1_vs2013.csproj", "{968941B1-A783-40AE-8CDF-F4FD06B9BA90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Form2F1", "Form2F1\Form2F1.csproj", "{CBBBD9E6-AEE9-41D8-A504-01394AEC3182}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Form2F1", "Form2F1\Form2F1_vs2013.csproj", "{CBBBD9E6-AEE9-41D8-A504-01394AEC3182}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
