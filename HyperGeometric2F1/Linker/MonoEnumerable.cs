@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
@@ -32,14 +32,16 @@ namespace HyperGeometric2F1.Linker
 			return new ArgumentOutOfRangeException("index", index,
 				"Параметр має задовільняти умову: " + 1 + " ≤ index ≤ " + Count);
 		}
-		/*public T[] ToArray<T>(Converter<TClone, T> conv, int len, int jump = 1)
+		/*
+		public T[] ToArray<T>(Converter<TClone, T> conv, int len, int jump = 1)
 		{
 			int i = -1;
 			T[] array = new T[len];
 			var e = new MonoEnumerator((TClone)this, len, jump);
 			while(e.MoveNext()) array[++i] = conv(e.Current);
 			return array;
-		}//*/
+		}
+		//*/
 		public T[] ToArray<T>(Converter<TClone, T> conv) { return ToArray(conv, Count); }
 		public T[] ToArray<T>(Converter<TClone, T> conv, int len, int jump = 1)
 		{
@@ -124,28 +126,33 @@ namespace HyperGeometric2F1.Linker
 			do { next = (item = next).Link; item._setLink(prev); prev = item; }
 			while(pred(next)); _setLink(next ?? Link); return item;
 		}
-		/*public virtual TClone SortSlow(Comparison<TClone> cmpr)
+		/*
+		public virtual TClone SortSlow(Comparison<TClone> cmpr)
 		{
 			TClone rtrn = (TClone)this, item = rtrn, next, prev;
 			//
 			return rtrn;
 		}
-		/*public virtual TClone SortFast(Comparison<TClone> cmpr)
+		/*
+		public virtual TClone SortFast(Comparison<TClone> cmpr)
 		{
 			TClone rtrn = (TClone)this, item, next, prev;
 			//
 			return rtrn;
-		}//*/
+		}
+		//*/
 
 		#endregion
 
 		#region Implement IList<TClone>, IList<TData>
 
-		/*TData IList<TData>.this[int index]
+		/*
+		TData IList<TData>.this[int index]
 		{
 			get { var t = this[index]; return t == null ? default(TData) : t.Data; }
 			set { var t = this[index]; if(t != null) t.Data = value; }
-		}//*/
+		}
+		//*/
 		/// <exception cref="ArgumentOutOfRangeException"> Параметр має задовільняти умову:
 		/// <value>1</value> ≤ <paramref name="index"/> ≤ <see cref="Count"/> </exception>
 		public virtual TClone this[int index]

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using HyperGeometric2F1.Base;
 using HyperGeometric2F1.Linker;
 
@@ -63,10 +63,12 @@ namespace HyperGeometric2F1.Math
 			if(n > 20)
 				if(ThrowExceptions) throw new ArgumentOutOfRangeException("n", "n > " + 20 + " => n! > " + long.MaxValue);
 				else return long.MaxValue;
-			/*if(ThrowExceptions) {
+			/*
+			if(ThrowExceptions) {
 				if(n < 0) throw new ArgumentOutOfRangeException("n", "n < " + 0 + " => n! = Infinity");
 				if(n > 20) throw new ArgumentOutOfRangeException("n", "n > " + 20 + " => n! > " + long.MaxValue);
-			}//*/
+			}
+			//*/
 			return _gamma(++n);
 		}
 		public static long Gamma(int n) {
@@ -76,10 +78,12 @@ namespace HyperGeometric2F1.Math
 			if(n > 21)
 				if(ThrowExceptions) throw new ArgumentOutOfRangeException("n", "n > " + 21 + " => Gamma(n) > " + long.MaxValue);
 				else return long.MaxValue;
-			/*if(ThrowExceptions) {
+			/*
+			if(ThrowExceptions) {
 				if(n < 1) throw new ArgumentOutOfRangeException("n", "n < " + 1 + " => Gamma(n) = Infinity");
 				if(n > 21) throw new ArgumentOutOfRangeException("n", "n > " + 21 + " => Gamma(n) > " + long.MaxValue);
-			}//*/
+			}
+			//*/
 			return _gamma(n);
 		}
 		public static double Pochhammer(double a, int n) { double r = 1d; while(--n >= 0) r *= a + n; while(++n < 0) r /= a + n; return r; }
@@ -177,12 +181,14 @@ namespace HyperGeometric2F1.Math
 				- Pow(n, -11) / 360360d * 691d
 				+ Pow(n, -13) / 156d
 				) * Pochhammer(n, z - 8);
-			/*n = q + 17d;
+			/*
+			n = q + 17d;
 			return
 				ComplexDouble.Pow(2d * ComplexDouble.Pi * n, 0.5d) * ComplexDouble.Pow(n, n - 1d)
 				* ComplexDouble.Exp(-n + 1d / (12d * n) - 1d / (360d * ComplexDouble.Pow(n, 3d))
 				+ 1d / (1260d * ComplexDouble.Pow(n, 5d)) - 1d / (1686d * ComplexDouble.Pow(n, 7d)))
-				* Pochhammer(n, z - 17);//*/
+				* Pochhammer(n, z - 17);
+			//*/
 		}
 		//
 		public static double FastPochhammer(double a, double n) { return FastGamma(a + n) / FastGamma(a); }

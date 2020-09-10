@@ -1,4 +1,4 @@
-﻿namespace HyperGeometric2F1.Linker
+namespace HyperGeometric2F1.Linker
 {
 	public class MultiCycle<TData, TLink, TClone>
 		: MultiLinker<TData, TLink, TClone>

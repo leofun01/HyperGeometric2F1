@@ -1,4 +1,4 @@
-﻿namespace HyperGeometric2F1.Base
+namespace HyperGeometric2F1.Base
 {
 	public delegate T Func<T>(T v);
 	public delegate TOut Func<in TIn, out TOut>(TIn v);

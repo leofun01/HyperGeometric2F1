@@ -1,4 +1,4 @@
-﻿namespace Form2F1
+namespace Form2F1
 {
 	partial class FormFraction
 	{
@@ -100,7 +100,7 @@
 			// textBox1
 			// 
 			this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+			| System.Windows.Forms.AnchorStyles.Right)));
 			this.textBox1.Location = new System.Drawing.Point(196, 2);
 			this.textBox1.Name = "textBox1";
 			this.textBox1.Size = new System.Drawing.Size(115, 20);
@@ -109,7 +109,7 @@
 			// textBox2
 			// 
 			this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+			| System.Windows.Forms.AnchorStyles.Right)));
 			this.textBox2.Location = new System.Drawing.Point(196, 22);
 			this.textBox2.Name = "textBox2";
 			this.textBox2.Size = new System.Drawing.Size(115, 20);
@@ -118,8 +118,8 @@
 			// panelXi
 			// 
 			this.panelXi.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+			| System.Windows.Forms.AnchorStyles.Left) 
+			| System.Windows.Forms.AnchorStyles.Right)));
 			this.panelXi.AutoScroll = true;
 			this.panelXi.Location = new System.Drawing.Point(0, 101);
 			this.panelXi.Name = "panelXi";
@@ -138,16 +138,16 @@
 			// numericUpDownK
 			// 
 			this.numericUpDownK.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+			| System.Windows.Forms.AnchorStyles.Right)));
 			this.numericUpDownK.Location = new System.Drawing.Point(80, 3);
 			this.numericUpDownK.Name = "numericUpDownK";
 			this.numericUpDownK.Size = new System.Drawing.Size(51, 20);
 			this.numericUpDownK.TabIndex = 2;
 			this.numericUpDownK.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
+			1,
+			0,
+			0,
+			0});
 			this.numericUpDownK.ValueChanged += new System.EventHandler(this.numericUpDownK_ValueChanged);
 			// 
 			// buttonReverse
@@ -196,15 +196,15 @@
 			// 
 			this.numericUpDownA.Location = new System.Drawing.Point(36, 3);
 			this.numericUpDownA.Maximum = new decimal(new int[] {
-            50,
-            0,
-            0,
-            0});
+			50,
+			0,
+			0,
+			0});
 			this.numericUpDownA.Minimum = new decimal(new int[] {
-            50,
-            0,
-            0,
-            -2147483648});
+			50,
+			0,
+			0,
+			-2147483648});
 			this.numericUpDownA.Name = "numericUpDownA";
 			this.numericUpDownA.Size = new System.Drawing.Size(51, 20);
 			this.numericUpDownA.TabIndex = 2;
@@ -214,15 +214,15 @@
 			// 
 			this.numericUpDownC.Location = new System.Drawing.Point(213, 3);
 			this.numericUpDownC.Maximum = new decimal(new int[] {
-            50,
-            0,
-            0,
-            0});
+			50,
+			0,
+			0,
+			0});
 			this.numericUpDownC.Minimum = new decimal(new int[] {
-            50,
-            0,
-            0,
-            -2147483648});
+			50,
+			0,
+			0,
+			-2147483648});
 			this.numericUpDownC.Name = "numericUpDownC";
 			this.numericUpDownC.Size = new System.Drawing.Size(51, 20);
 			this.numericUpDownC.TabIndex = 6;
@@ -232,15 +232,15 @@
 			// 
 			this.numericUpDownB.Location = new System.Drawing.Point(124, 3);
 			this.numericUpDownB.Maximum = new decimal(new int[] {
-            50,
-            0,
-            0,
-            0});
+			50,
+			0,
+			0,
+			0});
 			this.numericUpDownB.Minimum = new decimal(new int[] {
-            50,
-            0,
-            0,
-            -2147483648});
+			50,
+			0,
+			0,
+			-2147483648});
 			this.numericUpDownB.Name = "numericUpDownB";
 			this.numericUpDownB.Size = new System.Drawing.Size(51, 20);
 			this.numericUpDownB.TabIndex = 4;
@@ -258,9 +258,9 @@
 			// menuStripMain
 			// 
 			this.menuStripMain.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ToolStripMenuItemEvaluate,
-            this.ToolStripMenuItemList,
-            this.ToolStripMenuItemWindow});
+			this.ToolStripMenuItemEvaluate,
+			this.ToolStripMenuItemList,
+			this.ToolStripMenuItemWindow});
 			this.menuStripMain.Location = new System.Drawing.Point(0, 0);
 			this.menuStripMain.Name = "menuStripMain";
 			this.menuStripMain.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
@@ -271,8 +271,8 @@
 			// ToolStripMenuItemEvaluate
 			// 
 			this.ToolStripMenuItemEvaluate.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ToolStripMenuItemIterateList,
-            this.ToolStripMenuItemIterateMap});
+			this.ToolStripMenuItemIterateList,
+			this.ToolStripMenuItemIterateMap});
 			this.ToolStripMenuItemEvaluate.Name = "ToolStripMenuItemEvaluate";
 			this.ToolStripMenuItemEvaluate.Size = new System.Drawing.Size(87, 20);
 			this.ToolStripMenuItemEvaluate.Text = "Обчислення";
@@ -296,8 +296,8 @@
 			// ToolStripMenuItemList
 			// 
 			this.ToolStripMenuItemList.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ToolStripMenuItemReverse,
-            this.ToolStripMenuItemShowList});
+			this.ToolStripMenuItemReverse,
+			this.ToolStripMenuItemShowList});
 			this.ToolStripMenuItemList.Name = "ToolStripMenuItemList";
 			this.ToolStripMenuItemList.Size = new System.Drawing.Size(108, 20);
 			this.ToolStripMenuItemList.Text = "Послідовність";
@@ -319,7 +319,7 @@
 			// ToolStripMenuItemWindow
 			// 
 			this.ToolStripMenuItemWindow.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ToolStripMenuItemShowCopy});
+			this.ToolStripMenuItemShowCopy});
 			this.ToolStripMenuItemWindow.Name = "ToolStripMenuItemWindow";
 			this.ToolStripMenuItemWindow.Size = new System.Drawing.Size(52, 20);
 			this.ToolStripMenuItemWindow.Text = "Вікно";
@@ -334,7 +334,7 @@
 			// panel1
 			// 
 			this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+			| System.Windows.Forms.AnchorStyles.Right)));
 			this.panel1.Controls.Add(this.textBox2);
 			this.panel1.Controls.Add(this.textBox1);
 			this.panel1.Controls.Add(this.labelFs);
@@ -350,7 +350,7 @@
 			// panel2
 			// 
 			this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+			| System.Windows.Forms.AnchorStyles.Right)));
 			this.panel2.Controls.Add(this.numericUpDownK);
 			this.panel2.Controls.Add(this.panelShift);
 			this.panel2.Controls.Add(this.labelK);

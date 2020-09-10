@@ -1,4 +1,4 @@
-﻿
+
 namespace HyperGeometric2F1.Math
 {
 	/// <summary> Комплексне число (z=x+i*y), кожна складова (x,y) якого є double
@@ -147,8 +147,10 @@ namespace HyperGeometric2F1.Math
 		#region Оператори
 		/// <summary><returns> Спряжене комплексне число. </returns></summary>
 		public static ComplexDouble operator ~(ComplexDouble z) { return new ComplexDouble(z.Re, -z.Im); }
-		/*/// <summary><returns> Спряжене комплексне число. </returns></summary>
-		public static ComplexDouble operator !(ComplexDouble z) { return ~z; }//*/
+		/*
+		/// <summary><returns> Спряжене комплексне число. </returns></summary>
+		public static ComplexDouble operator !(ComplexDouble z) { return ~z; }
+		//*/
 		public static ComplexDouble operator ++(ComplexDouble z) { ++z.Re; return z; }
 		public static ComplexDouble operator --(ComplexDouble z) { --z.Re; return z; }
 		public static ComplexDouble operator +(ComplexDouble z) { return z; }

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
@@ -216,7 +216,8 @@ namespace HyperGeometric2F1.Math
 			s.Data = new KeyValuePair<char, string>(s.Data.Key == pstv ? ngtv : pstv, s.Data.Value);
 			return s;
 		}
-		/*public static string Expand(string s) { return StrFuncStr(s, Expand); }
+		/*
+		public static string Expand(string s) { return StrFuncStr(s, Expand); }
 		public static MultiLinker<KeyValuePair<char, string>> Expand(MultiLinker<KeyValuePair<char, string>> s)
 		{
 			if(s == null || s.Link == null) return s;
@@ -249,7 +250,8 @@ namespace HyperGeometric2F1.Math
 			}
 			NormCheck1(clone, '+', '-');
 			return clone.Link.Link == null ? clone.Link.Data : clone;
-		}//*/
+		}
+		//*/
 		public static string FullExpand(string s) { return StrFuncStr(s, FullExpand); }
 		/// <summary> Відкриває всі дужки і повертає<returns> суму добутків </returns></summary>
 		public static MultiLinker<KeyValuePair<char, string>> FullExpand(MultiLinker<KeyValuePair<char, string>> s)
@@ -290,9 +292,10 @@ namespace HyperGeometric2F1.Math
 			if(s1 == null || s2 == null) return false;
 			bool b1 = s1.Link == null, b2 = s2.Link == null;
 			if(b1 || b2) return (b1 ? s1.Data : ToSignedString(s1)).Value == (b2 ? s2.Data : ToSignedString(s2)).Value;
-			/*s1 = FullExpand(s1);
+			/*
+			s1 = FullExpand(s1);
 			s2 = FullExpand(s2);
-			;//*/
+			//*/
 			return ToSignedString(s1).Value == ToSignedString(s2).Value;
 		}
 		/// <summary><returns> Common factor </returns></summary>
@@ -368,7 +371,8 @@ namespace HyperGeometric2F1.Math
 						(mono.Data.Data.Key == c && EqualsByValue(mono.Data, p)/* ||
 						mono.Data.Data.Key == p.Data.Key && EqualsByValue(mono.Data, p)*/)))
 					{ s.Remove(pair); continue; }
-					/*if(pair.Data.Link == null)
+					/*
+					if(pair.Data.Link == null)
 					{
 						var temp = s.Link.Find(mono => mono != null && mono.Data != null &&
 							mono.Data.Count > 1 &&
@@ -376,7 +380,8 @@ namespace HyperGeometric2F1.Math
 							EqualsByValue(mono.Data.Link.Link.Data.Data.Value, p.Value));
 						if(false)
 							s.Remove(pair);
-					}//*/
+					}
+					//*/
 					//
 					if(EqualsPorN(p.Data.Key, '+', '-') && (p.Data.Value == @"n" ||
 						(p.Link != null && p.Link.Link != null && p.Link.Link.Link == null &&

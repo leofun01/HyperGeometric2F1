@@ -1,4 +1,4 @@
-﻿namespace HyperGeometric2F1.Linker
+namespace HyperGeometric2F1.Linker
 {
 	/// <summary> Містить дані і посилання. </summary>
 	/// <typeparam name="TData"> Тип даних. </typeparam>

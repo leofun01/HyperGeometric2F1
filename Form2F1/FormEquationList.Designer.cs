@@ -1,4 +1,4 @@
-﻿namespace Form2F1
+namespace Form2F1
 {
 	partial class FormEquationList
 	{
@@ -144,7 +144,7 @@
 			// buttonFind
 			// 
 			this.buttonFind.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+			| System.Windows.Forms.AnchorStyles.Right)));
 			this.buttonFind.Location = new System.Drawing.Point(268, 24);
 			this.buttonFind.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.buttonFind.Name = "buttonFind";
@@ -160,15 +160,15 @@
 			this.numericUpDownC2.Location = new System.Drawing.Point(224, 24);
 			this.numericUpDownC2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.numericUpDownC2.Maximum = new decimal(new int[] {
-            3,
-            0,
-            0,
-            0});
+			3,
+			0,
+			0,
+			0});
 			this.numericUpDownC2.Minimum = new decimal(new int[] {
-            3,
-            0,
-            0,
-            -2147483648});
+			3,
+			0,
+			0,
+			-2147483648});
 			this.numericUpDownC2.Name = "numericUpDownC2";
 			this.numericUpDownC2.ReadOnly = true;
 			this.numericUpDownC2.Size = new System.Drawing.Size(40, 20);
@@ -180,15 +180,15 @@
 			this.numericUpDownB2.Location = new System.Drawing.Point(183, 24);
 			this.numericUpDownB2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.numericUpDownB2.Maximum = new decimal(new int[] {
-            3,
-            0,
-            0,
-            0});
+			3,
+			0,
+			0,
+			0});
 			this.numericUpDownB2.Minimum = new decimal(new int[] {
-            3,
-            0,
-            0,
-            -2147483648});
+			3,
+			0,
+			0,
+			-2147483648});
 			this.numericUpDownB2.Name = "numericUpDownB2";
 			this.numericUpDownB2.ReadOnly = true;
 			this.numericUpDownB2.Size = new System.Drawing.Size(40, 20);
@@ -200,15 +200,15 @@
 			this.numericUpDownA2.Location = new System.Drawing.Point(142, 24);
 			this.numericUpDownA2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.numericUpDownA2.Maximum = new decimal(new int[] {
-            3,
-            0,
-            0,
-            0});
+			3,
+			0,
+			0,
+			0});
 			this.numericUpDownA2.Minimum = new decimal(new int[] {
-            3,
-            0,
-            0,
-            -2147483648});
+			3,
+			0,
+			0,
+			-2147483648});
 			this.numericUpDownA2.Name = "numericUpDownA2";
 			this.numericUpDownA2.ReadOnly = true;
 			this.numericUpDownA2.Size = new System.Drawing.Size(40, 20);
@@ -220,15 +220,15 @@
 			this.numericUpDownC1.Location = new System.Drawing.Point(92, 24);
 			this.numericUpDownC1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.numericUpDownC1.Maximum = new decimal(new int[] {
-            3,
-            0,
-            0,
-            0});
+			3,
+			0,
+			0,
+			0});
 			this.numericUpDownC1.Minimum = new decimal(new int[] {
-            3,
-            0,
-            0,
-            -2147483648});
+			3,
+			0,
+			0,
+			-2147483648});
 			this.numericUpDownC1.Name = "numericUpDownC1";
 			this.numericUpDownC1.ReadOnly = true;
 			this.numericUpDownC1.Size = new System.Drawing.Size(40, 20);
@@ -240,15 +240,15 @@
 			this.numericUpDownB1.Location = new System.Drawing.Point(52, 24);
 			this.numericUpDownB1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.numericUpDownB1.Maximum = new decimal(new int[] {
-            3,
-            0,
-            0,
-            0});
+			3,
+			0,
+			0,
+			0});
 			this.numericUpDownB1.Minimum = new decimal(new int[] {
-            3,
-            0,
-            0,
-            -2147483648});
+			3,
+			0,
+			0,
+			-2147483648});
 			this.numericUpDownB1.Name = "numericUpDownB1";
 			this.numericUpDownB1.ReadOnly = true;
 			this.numericUpDownB1.Size = new System.Drawing.Size(40, 20);
@@ -260,15 +260,15 @@
 			this.numericUpDownA1.Location = new System.Drawing.Point(11, 24);
 			this.numericUpDownA1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.numericUpDownA1.Maximum = new decimal(new int[] {
-            3,
-            0,
-            0,
-            0});
+			3,
+			0,
+			0,
+			0});
 			this.numericUpDownA1.Minimum = new decimal(new int[] {
-            3,
-            0,
-            0,
-            -2147483648});
+			3,
+			0,
+			0,
+			-2147483648});
 			this.numericUpDownA1.Name = "numericUpDownA1";
 			this.numericUpDownA1.ReadOnly = true;
 			this.numericUpDownA1.Size = new System.Drawing.Size(40, 20);
@@ -281,25 +281,25 @@
 			this.numericUpDownShift.Location = new System.Drawing.Point(224, 0);
 			this.numericUpDownShift.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.numericUpDownShift.Maximum = new decimal(new int[] {
-            4,
-            0,
-            0,
-            0});
+			4,
+			0,
+			0,
+			0});
 			this.numericUpDownShift.Name = "numericUpDownShift";
 			this.numericUpDownShift.ReadOnly = true;
 			this.numericUpDownShift.Size = new System.Drawing.Size(40, 20);
 			this.numericUpDownShift.TabIndex = 3;
 			this.numericUpDownShift.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
+			1,
+			0,
+			0,
+			0});
 			this.numericUpDownShift.ValueChanged += new System.EventHandler(this.numericUpDownShift_ValueChanged);
 			// 
 			// buttonBuild
 			// 
 			this.buttonBuild.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+			| System.Windows.Forms.AnchorStyles.Right)));
 			this.buttonBuild.Enabled = false;
 			this.buttonBuild.Location = new System.Drawing.Point(0, 129);
 			this.buttonBuild.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -351,7 +351,7 @@
 			// textBoxF
 			// 
 			this.textBoxF.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+			| System.Windows.Forms.AnchorStyles.Right)));
 			this.textBoxF.Location = new System.Drawing.Point(47, 0);
 			this.textBoxF.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.textBoxF.Name = "textBoxF";
@@ -362,8 +362,8 @@
 			// treeViewCycle
 			// 
 			this.treeViewCycle.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+			| System.Windows.Forms.AnchorStyles.Left) 
+			| System.Windows.Forms.AnchorStyles.Right)));
 			this.treeViewCycle.LabelEdit = true;
 			this.treeViewCycle.Location = new System.Drawing.Point(0, 49);
 			this.treeViewCycle.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
@@ -375,9 +375,9 @@
 			// menuStrip1
 			// 
 			this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItemPanelSplit,
-            this.ToolStripMenuItemFont,
-            this.toolStripMenuItemHelp});
+			this.toolStripMenuItemPanelSplit,
+			this.ToolStripMenuItemFont,
+			this.toolStripMenuItemHelp});
 			this.menuStrip1.Location = new System.Drawing.Point(0, 0);
 			this.menuStrip1.Name = "menuStrip1";
 			this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
@@ -389,8 +389,8 @@
 			// toolStripMenuItemPanelSplit
 			// 
 			this.toolStripMenuItemPanelSplit.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItemHor,
-            this.toolStripMenuItemVer});
+			this.toolStripMenuItemHor,
+			this.toolStripMenuItemVer});
 			this.toolStripMenuItemPanelSplit.Name = "toolStripMenuItemPanelSplit";
 			this.toolStripMenuItemPanelSplit.Size = new System.Drawing.Size(59, 20);
 			this.toolStripMenuItemPanelSplit.Text = "Панель";

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -37,9 +37,12 @@ namespace Form2F1
 			// 
 			// label1
 			// 
-			this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(
+				System.Windows.Forms.AnchorStyles.Top |
+				System.Windows.Forms.AnchorStyles.Bottom |
+				System.Windows.Forms.AnchorStyles.Left |
+				System.Windows.Forms.AnchorStyles.Right
+			));
 			this.label1.Location = new System.Drawing.Point(12, 9);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(496, 262);

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using HyperGeometric2F1.Base;
 using HyperGeometric2F1.Math;

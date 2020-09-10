@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using HyperGeometric2F1.Linker;
 using HyperGeometric2F1.Hypergeometric;
@@ -24,36 +24,43 @@ namespace HyperGeometric2F1
 					Console.WriteLine(i + "." + (j++) + " : " + gj.Count);
 					Console.WriteLine();
 					foreach(var v in (IEnumerable<HyperEquation>)gj) {
-						/*Console.WriteLine(v[0].AbcShift + " -> " + v[0].GetShiftedStr());
+						/*
+						Console.WriteLine(v[0].AbcShift + " -> " + v[0].GetShiftedStr());
 						Console.WriteLine(v[1].AbcShift + " -> " + v[1].GetShiftedStr());
 						Console.WriteLine(v[2].AbcShift + " -> " + v[2].GetShiftedStr());
-						Console.WriteLine();//*/
+						Console.WriteLine();
+						//*/
 						//Console.WriteLine(v + "\r\n");
 						//Console.WriteLine((v[1].AbcShift + "," + v[2].AbcShift).Replace(" 0", " ").Replace("+1", "+").Replace("-1", "-"));
 						//Console.WriteLine(v.ToWolframFullSimplify() + ","/* + "\r\n"*/);
 						Console.WriteLine(("0," + v[1].AbcShift + "," + v[2].AbcShift).Replace(" 0", " ").Replace("+1", "+").Replace("-1", "-") + "  " + v.ToString().Replace("*", "").Replace("F", "*F"));
 					}
-					/*Console.WriteLine();
+					/*
+					Console.WriteLine();
 					Console.WriteLine("{");
 					foreach(var v in (IEnumerable<HyperEquation>)gi) Console.WriteLine(v.FullSimplify() + ",");
 					Console.WriteLine("}");
-					Console.WriteLine();//*/
+					Console.WriteLine();
+					//*/
 					Console.WriteLine();
 					Console.WriteLine("Press Enter to continue ...");
-					Console.ReadLine();//*/
+					Console.ReadLine();
+					//*/
 				} ++i;
 			}
 			foreach(var v in (IEnumerable<HyperEquation>)HyperSet.Gplus) {
 				Console.WriteLine((v[0].AbcShift + "," + v[1].AbcShift + "," + v[2].AbcShift).Replace(" 0", " ").Replace("+1", "+").Replace("-1", "-") + "  " + v.ToString().Replace("*", "").Replace("F", "*F"));
 			}
 			Console.WriteLine();
-			/*Console.WriteLine(g[5][2].Link[0].Data.Data);
+			/*
+			Console.WriteLine(g[5][2].Link[0].Data.Data);
 			Console.WriteLine();
 			foreach(var x in g[5][2].Link[0].Data.Link) {
 				if(x.Data.Data.FromEquations == null) continue;
 				foreach(var y in x.Data.Data.FromEquations) Console.WriteLine(y.Data);
 				Console.WriteLine();
-			}//*/
+			}
+			//*/
 			Console.WriteLine("Press Enter to continue ...");
 			Console.ReadLine();
 			Console.Write("{");

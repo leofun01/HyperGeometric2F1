@@ -1,4 +1,4 @@
-﻿namespace HyperGeometric2F1.Base
+namespace HyperGeometric2F1.Base
 {
 	/// <summary> Задає метод клонування. </summary>
 	/// <typeparam name="T"> Тип клонованого об'єкта. </typeparam>

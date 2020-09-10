@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
@@ -53,8 +53,10 @@ namespace HyperGeometric2F1.Hypergeometric
 		public string ToWolframString()
 		{
 			var s = ToString().Replace("F + ", "F[a,b,c,z] + ");
-			/*while(s.Contains("++") || s.Contains("--") || s.Contains("+-") || s.Contains("-+"))
-				s = s.Replace("++", "+").Replace("--", "+").Replace("+-", "-").Replace("-+", "-");//*/
+			/*
+			while(s.Contains("++") || s.Contains("--") || s.Contains("+-") || s.Contains("-+"))
+				s = s.Replace("++", "+").Replace("--", "+").Replace("+-", "-").Replace("-+", "-");
+			//*/
 			return s.Replace("F", "Hypergeometric2F1").Replace(" + -", "-").Replace(" + ", "+");
 		}
 		public string ToWolframFullSimplify() { return ToWolframString() + "//FullSimplify"; }
@@ -86,13 +88,15 @@ namespace HyperGeometric2F1.Hypergeometric
 			he.FromEquations = v.FromEquations;
 			return he;
 		}
-		/*private static string GetStr(string s, int i, bool brkt) { return i == 0 ? s : string.Concat(brkt ? "(" : "", (i > 0 ? s + "+" : s) + i, brkt ? ")" : ""); }
+		/*
+		private static string GetStr(string s, int i, bool brkt) { return i == 0 ? s : string.Concat(brkt ? "(" : "", (i > 0 ? s + "+" : s) + i, brkt ? ")" : ""); }
 		public static string GetShiftedStr(string s, Abc shift, bool brkt)
 		{
 			return s.Replace("a", GetStr("a", shift.A, brkt))
 					.Replace("b", GetStr("b", shift.B, brkt))
 					.Replace("c", GetStr("c", shift.C, brkt));
-		}//*/
+		}
+		//*/
 
 		#region Implements & Overrides
 

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Drawing;
 using System.Globalization;
 using System.Windows.Forms;
@@ -50,7 +50,6 @@ namespace Form2F1
 					for(int k = 0; k < _g[i][j].Count; ++k)
 					{
 						g = _g[i][j][k].Data;
-						//αβγδλμπ
 						var node2 = new TreeNodeHyperF("#" + i + "." + j + "." + (k + 1).ToString("00") + "  " + g.Data[1].AbcShift + "," + g.Data[2].AbcShift + "  " + g.Data.ToString().Replace("*", "").Replace("F", "*F") + " = 0") { G = g };
 						node1.Nodes.Add(node2);
 						for(int kk = 0; kk < _g[i][j][k].Data.Count; ++kk)
@@ -323,10 +322,12 @@ namespace Form2F1
 					"параметрів a, b, c."
 				}), @"Не знайдено", MessageBoxButtons.OK, MessageBoxIcon.Information);
 			}
-			/*textBoxDetale.Text = mh.Data.ToString()
+			/*
+			textBoxDetale.Text = mh.Data.ToString()
 				.Replace(@"F + ", @"F[a,b,c,z] + ")
 				.Replace(@" + -", @"-").Replace(@" + ", @"+")
-				.Replace(@"F", textBoxF.Text) + @"=0";//*/
+				.Replace(@"F", textBoxF.Text) + @"=0";
+			//*/
 		}
 		private void buttonFindCycle_Click(object sender, EventArgs e)
 		{

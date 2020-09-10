@@ -1,4 +1,4 @@
-﻿namespace Form2F1
+namespace Form2F1
 {
 	partial class UserControlXi
 	{

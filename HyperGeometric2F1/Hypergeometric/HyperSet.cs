@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using HyperGeometric2F1.Base;
@@ -610,12 +610,14 @@ namespace HyperGeometric2F1.Hypergeometric
 		public MonoLinker<HyperEquation>.MonoEnumerator GetEnumerator() { return new MonoLinker<HyperEquation>.MonoEnumerator(List); }
 		IEnumerator<MonoLinker<HyperEquation>> IEnumerable<MonoLinker<HyperEquation>>.GetEnumerator()
 		{
-			/*foreach(var gi in G)
+			/*
+			foreach(var gi in G)
 				foreach(var gij in gi)
 					foreach(var v in gij)
 						yield return v.Data;
 			foreach(var hi in Gplus)
-				yield return hi.Data;//*/
+				yield return hi.Data;
+			//*/
 			return GetEnumerator();
 		}
 		IEnumerator IEnumerable.GetEnumerator() { return GetEnumerator(); }
