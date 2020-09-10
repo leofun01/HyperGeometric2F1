@@ -182,5 +182,3 @@ namespace HyperGeometric2F1.Math
 		#endregion
 	}
 }
-
-// (±™©‰®π¬°№§√)

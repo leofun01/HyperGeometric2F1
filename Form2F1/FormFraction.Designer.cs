@@ -394,7 +394,7 @@
 			this.MainMenuStrip = this.menuStripMain;
 			this.MinimumSize = new System.Drawing.Size(410, 121);
 			this.Name = "FormFraction";
-			this.Text = "HyperGeoMetric 2F1 (Continued Fraction)";
+			this.Text = "HyperGeometric 2F1 (Continued Fraction)";
 			this.ClientSizeChanged += new System.EventHandler(this.FormFraction_ClientSizeChanged);
 			((System.ComponentModel.ISupportInitialize)(this.numericUpDownK)).EndInit();
 			this.panelShift.ResumeLayout(false);

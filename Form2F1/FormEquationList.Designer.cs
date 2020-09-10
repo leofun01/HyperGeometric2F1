@@ -446,7 +446,7 @@
 			this.MainMenuStrip = this.menuStrip1;
 			this.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
 			this.Name = "FormEquationList";
-			this.Text = "HyperGeoMetric 2F1 (List of Equations)";
+			this.Text = "HyperGeometric 2F1 (List of Equations)";
 			this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.FormEquationList_KeyPress);
 			this.splitContainer1.Panel1.ResumeLayout(false);
 			this.splitContainer1.Panel2.ResumeLayout(false);

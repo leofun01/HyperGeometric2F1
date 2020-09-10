@@ -26,7 +26,7 @@ namespace Form2F1
 			ClientSize = new Size(600, 400);
 			Font = new Font(@"Lucida Console", 13F, FontStyle.Regular, GraphicsUnit.Pixel);
 			Name = @"FormBase";
-			Text = @"HyperGeoMetric 2F1";
+			Text = @"HyperGeometric 2F1";
 			ResumeLayout(false);
 		}
 		#endregion

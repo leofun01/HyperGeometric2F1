@@ -26,7 +26,6 @@ namespace HyperGeometric2F1.Hypergeometric
 			for(int j = 0, len0 = G.GetLength(0); j < len0; ++j)
 				for(int k = 0, len1 = G[j].GetLength(0); k < len1; ++k)
 					G[j][k] = new MultiCycle<HyperEquation>();
-			//αβγδλμπ
 			Coef c1 = new Coef("+a"), c2 = new Coef("+a+b"), c3 = new Coef("+a+b+c");
 			G[0][0].Data = new HyperEquation(Coef.Zero, new Coef("-a"), c1);
 			G[0][1].Data = new HyperEquation(Coef.Zero, new Coef("+b"), c1);
